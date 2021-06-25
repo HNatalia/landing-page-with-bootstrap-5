@@ -1,0 +1,29 @@
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.img-fluid {
+  max-width: 60%;
+}
+
+.text {
+  max-width: 45%;
+}
+
+p {
+  -webkit-font-smoothing: antialiased;
+}
+
+.fas {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .img-fluid, .text {
+    max-width: 100%;
+  } 
+}
