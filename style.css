@@ -6,6 +6,10 @@
   box-shadow: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .img-fluid {
   max-width: 60%;
 }
@@ -20,6 +24,57 @@ p {
 
 .fas {
   font-size: 40px;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.slider-img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  transform: translateY(-60%);
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.user {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.accordion-button:focus {
+  outline: none;
+  border: none;
+}
+
+form {
+  margin-left: 50px;
 }
 
 @media screen and (max-width: 992px) {
